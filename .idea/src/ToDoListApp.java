@@ -55,7 +55,7 @@ public class ToDoListApp {
               System.out.println("Task, " + lowerCaseTaskName + ", not found!");
            }else{
                tasks.remove(lowerCaseTaskName);
-               System.out.println("Task, " + lowerCaseTaskName+ ", was removed!");
+               System.out.println("Task," + lowerCaseTaskName+ ", was removed!");
            }
 
        } else{
@@ -70,7 +70,7 @@ public class ToDoListApp {
             int counter = 0; // keep track of the number of tasks
             for(int i=0; i<tasks.size(); i++){ // iterates through each task and prints it while keeping track of it
                 counter++;
-                System.out.println((i+1) + "." + tasks.get(i));
+                System.out.println((i+1) + ". " + tasks.get(i));
             }
             System.out.println("There are " + counter + " tasks left to do");
         }
